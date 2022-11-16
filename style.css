@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-h1 {
+.main-heading {
     font-size: 50px;
 }
 
@@ -11,19 +11,25 @@ h1 {
     color: orange;
 }
 
-section {
+.section-flex {
     display: flex;
+    align-items: center;
+    column-gap: 25px;
+    padding: 0px 30px;
+}
+
+.section-bg {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
 }
 
 .hire-me-link {
     text-decoration: none;
+    color: white;
     background-image: linear-gradient(orange, tomato);
     background-color: orange;
     padding: 10px 40px;
