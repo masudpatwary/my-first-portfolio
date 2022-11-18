@@ -3,8 +3,8 @@ body {
     margin: 0;
 }
 
-.main-heading {
-    font-size: 50px;
+.h1 {
+    font-size: 40px;
 }
 
 .name-color {
@@ -27,7 +27,6 @@ body {
     align-items: center;
     column-gap: 25px;
     padding: 0px 30px;
-    margin-bottom: 100px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -35,6 +34,8 @@ body {
 
 .half-width {
     width: 50%;
+    margin: 50px;
+    padding: 10px;
 }
 
 .hire-me-link {
@@ -46,6 +47,13 @@ body {
     border-radius: 5px;
 }
 
+.experience-h1 {
+    margin-left: 50px;
+    font-size: 50px;
+}
+
 .experience-area {
     display: flex;
+    margin: 50px;
+
 }
