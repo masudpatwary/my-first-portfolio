@@ -11,6 +11,17 @@ body {
     color: orange;
 }
 
+.section-1 {
+    display: flex;
+    margin: 20PX;
+}
+
+.top-bg {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
 .section-flex {
     display: flex;
     align-items: center;
@@ -20,11 +31,6 @@ body {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-}
-
-.section-bg {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
 }
 
 .half-width {
@@ -38,4 +44,8 @@ body {
     background-color: orange;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.experience-area {
+    display: flex;
 }
