@@ -1,28 +1,25 @@
 body {
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
     margin: 0;
 }
 
-.h1 {
-    font-size: 40px;
-}
 
 .name-color {
     color: orange;
 }
 
-.section-1 {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.section {
     display: flex;
     margin-bottom: 80px;
 }
 
-.section-2 {
-    display: flex;
-    align-items: center;
-    column-gap: 25px;
-    padding: 0px 30px;
+.top-bg-img {
+    background-repeat: no-repeat;
+    background-image: url(images/top-banner.png)
+}
+
+.middle-bg {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -30,8 +27,8 @@ body {
 
 .half-width {
     width: 50%;
+    margin: 30px;
     padding: 30px;
-    margin-left: 10px;
 
 }
 
@@ -39,7 +36,7 @@ body {
     width: 80%;
 }
 
-.hire-me-link {
+.link-buttonm {
     text-decoration: none;
     color: white;
     background-image: linear-gradient(orange, tomato);
@@ -50,13 +47,9 @@ body {
 
 .experience-h1 {
     margin-left: 50px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .experience-area {
-    display: flex;
-}
-
-.flexible-conteiner {
     display: flex;
 }
