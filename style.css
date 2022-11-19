@@ -12,14 +12,10 @@ body {
 }
 
 .section-1 {
-    display: flex;
-    margin: 20PX;
-}
-
-.top-bg {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    margin: 0;
+    display: flex;
+    margin-bottom: 150px;
 }
 
 .section-2 {
@@ -34,8 +30,13 @@ body {
 
 .half-width {
     width: 50%;
-    margin: 50px;
-    padding: 20px;
+    padding: 30px;
+    margin-left: 10px;
+
+}
+
+.half-width img {
+    width: 80%;
 }
 
 .hire-me-link {
@@ -54,6 +55,8 @@ body {
 
 .experience-area {
     display: flex;
-    margin: 50px;
+}
 
+.flexible-conteiner {
+    display: flex;
 }
