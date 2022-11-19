@@ -27,7 +27,6 @@ body {
 .half-width {
     width: 50%;
     margin: 30px;
-    padding: 30px;
 
 }
 
@@ -42,11 +41,6 @@ body {
     background-color: orange;
     padding: 10px 40px;
     border-radius: 5px;
-}
-
-.experience-h1 {
-    margin-left: 50px;
-    font-size: 40px;
 }
 
 .experience-area {
